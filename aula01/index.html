@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <form action="resultado.php" method="post">
+        <label for="num1">Número 1:</label>
+        <input type="number" id="num1" name="num1" required><br><br>
+
+        <label for="num2">Número 2:</label>
+        <input type="number" id="num2" name="num2" required><br><br>
+
+        <label for="operation">Operação:</label>
+        <select id="operation" name="operation">
+            <option value="add">Soma</option>
+            <option value="subtract">Subtração</option>
+            <option value="multiply">Multiplicação</option>
+            <option value="divide">Divisão</option>
+        </select><br><br>
+
+        <input type="submit" value="Calcular">
+        <input type="reset" value="Limpar">
+        
+    </form>
+</body>
+</html>
